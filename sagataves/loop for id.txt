@@ -1,0 +1,17 @@
+function addIds(container, elName, prefix){
+    // get the container
+var container=document.getElementById(container);
+    // get tables
+var tables=container.getElementsByTagName(elName);
+    // loop through tables
+for(var i=0;i<tables.length;i++)
+        // add ids
+tables[i].id=prefix+(i+1);
+}
+
+addIds('dynamicIds','div','idPrefix');
+
+document.getElementById('idPrefix2').innerHTML='Second';
+document.getElementById('idPrefix4').innerHTML='Fourth';
+document.getElementById('idPrefix3').innerHTML='Third';
+document.getElementById('idPrefix1').innerHTML='First';
