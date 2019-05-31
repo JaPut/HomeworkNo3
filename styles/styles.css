@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#number {
+    background-color: rgb(56, 216, 56);
+    width: 35px;
+    height: 35px;
+    margin: 1px;
+    text-align: center;
+    font-size: 29px;
+  }
+#fizzBuzz {
+    background-color: rgb(129, 112, 224);
+    width: auto;
+    height: 35px;
+    margin: 1px;
+    text-align: center;
+    font-size: 29px;
+    color:whitesmoke;
+  }
+#buzz {
+    background-color: rgb(221, 236, 11);
+    width: auto;
+    height: 35px;
+    margin: 1px;
+    text-align: center;
+    font-size: 29px;
+  }
+#fizz {
+    background-color: rgb(238, 25, 227);
+    width: auto;
+    height: 35px;
+    margin: 1px;
+    text-align: center;
+    font-size: 29px;
+    color:whitesmoke;
+  }
