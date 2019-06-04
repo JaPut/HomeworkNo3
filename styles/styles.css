@@ -1,39 +1,107 @@
-body {
+
+* {
+  box-sizing: border-box;
+}
+
+
+header {
+  background-color: #666;
+  padding: 0px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 250px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.demo {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
   display: flex;
   flex-wrap: wrap;
 }
+body {
+/* display: flex; */
+flex-wrap: wrap;
+}
+main {
+display: flex;
+flex-wrap: wrap;
+}
 
-#number {
-    background-color: rgb(56, 216, 56);
-    width: 35px;
-    height: 35px;
-    margin: 1px;
-    text-align: center;
-    font-size: 29px;
-  }
-#fizzBuzz {
-    background-color: rgb(129, 112, 224);
-    width: auto;
-    height: 35px;
-    margin: 1px;
-    text-align: center;
-    font-size: 29px;
-    color:whitesmoke;
-  }
-#buzz {
-    background-color: rgb(221, 236, 11);
-    width: auto;
-    height: 35px;
-    margin: 1px;
-    text-align: center;
-    font-size: 29px;
-  }
-#fizz {
-    background-color: rgb(238, 25, 227);
-    width: auto;
-    height: 35px;
-    margin: 1px;
-    text-align: center;
-    font-size: 29px;
-    color:whitesmoke;
-  }
+
+.number {
+  background-color: rgb(56, 216, 56);
+  width: 35px;
+  height: 35px;
+  margin: 1px;
+  text-align: center;
+  font-size: 29px;
+}
+.fizzBuzz {
+  background-color: rgb(129, 112, 224);
+  width: auto;
+  height: 35px;
+  margin: 1px;
+  text-align: center;
+  font-size: 29px;
+  color:whitesmoke;
+}
+.buzz {
+  background-color: rgb(221, 236, 11);
+  width: auto;
+  height: 35px;
+  margin: 1px;
+  text-align: center;
+  font-size: 29px;
+}
+.fizz {
+  background-color: rgb(238, 25, 227);
+  width: auto;
+  height: 35px;
+  margin: 1px;
+  text-align: center;
+  font-size: 29px;
+  color:whitesmoke;
+}
+.button {
+  background-color: rgb(235, 180, 216); /* Green */
+  border: solid salmon;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.blank_row
+{
+  height: 10px !important;
+  background-color: #FFFFFF;
+}

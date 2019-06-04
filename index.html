@@ -5,11 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="js/myScript.js" defer></script>
-    <link rel="stylesheet" href="/styles/styles.css">
-
-</head>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <script src="/js/myScript.js" defer></script>
+    </head>
 <body>
-    
+  
+  <header class="header">
+    <h6>If something go wrong, push me</h6>
+    <input type="button" value = "Refresh" onclick="history.go(0)" />
+  </header>
+  
+  <h2>Responsive Fizzbuzz control page solution</h2>
+<p>Handmade.</p>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Essential</h2>
+    <p>Some text..</p>
+    <button onclick="theBeginning()">All range elements (1-100)</button>
+    <p>some text...</p>
+    <button onclick="removeElement()">removeElements</button>
+  </div>
+  
+  <div class="column" style="background-color:#bbb;">
+    <h2>Variable</h2>
+    <p>Fizzbuzz element for particular number</p>
+    <input id="myInput" type="number">
+    <p>dont write 101</p>
+    <button onclick="divWillBeBorn()">Check el No.</button>
+  </div>
+  <div class="column" style="background-color:#ccc;">
+    <h2>Select</h2>
+    <p>Some text..</p>
+    <button onclick="findBuzz()">Only Buzz</button>
+    <p>Some text..</p>
+    <button onclick="findFizz()">Only FIZZ</button>
+  </div>
+  <div class="column" style="background-color:#ddd;">
+    <h2>Alternatives</h2>
+    <p>You can some find element class by checkbox</p>
+    Check first el: <input type="checkbox" id="fizz">
+    Check last el: <input type="checkbox" id="buzz">
+    <p>or yoy can user slider to choose one random </p>
+  </div>
+</div>
+<div id="main" class="demo">
+  <p></p>
+</div>
 </body>
 </html>
