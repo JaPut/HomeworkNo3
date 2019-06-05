@@ -130,7 +130,7 @@ font-style: inherit;
   flex-wrap: wrap;
   text-align: center;
   padding-top: 10px;
-  background-image: url(/img/resultsarea.png);
+  background-image: url(img/resultsarea.png);
 }
 footer {
   background-color: rgb(238, 237, 237) 
