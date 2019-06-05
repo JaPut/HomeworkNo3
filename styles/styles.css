@@ -24,9 +24,14 @@ header {
   width: 150px;
   height: 39px;
   border-radius: 12px;
+  transition-duration: 0.4s;
+  cursor: grab;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-
+.btn:hover {
+  background-color: rgb(61, 3, 66); /* Green */
+  color: white;
+}
 .check {
   width: 5px;
   height: 25px;
@@ -125,7 +130,7 @@ font-style: inherit;
   flex-wrap: wrap;
   text-align: center;
   padding-top: 10px;
-  background-image: url(img/resultsarea.png);
+  background-image: url(/img/resultsarea.png);
 }
 footer {
   background-color: rgb(238, 237, 237) 

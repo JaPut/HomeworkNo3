@@ -33,19 +33,15 @@ function removeElement() {
 }
 function divWillBeBorn() {
   let i = document.getElementById("myInput").value;
-  if (i < 0 || i > 100) {
+  if (i < 1 || i > 100 || NaN) {
     alert("it wasn't asked in homework! :)");
 } if (i % 5 === 0) {
-  console.log("Buzz");
   document.getElementById('main').innerHTML = "I'm buzz element with number"+ " " + Number(i);
 } if (i % 3 === 0) {
-  console.log("Fizz");
   document.getElementById('main').innerHTML = "I'm fizz element with number"+ " " + Number(i);
 } if (i % 15 === 0) {
-  console.log("BuzzFizz");
   document.getElementById('main').innerHTML = "I'm buzzfizz element with number"+ " " + Number(i);
 } if (i % 15 !== 0 && i % 5 !== 0 && i % 3 !== 0) {
-  console.log("Number");
   document.getElementById('main').innerHTML = "However, I'm simple number"+ " " + Number(i);
 }
 }
