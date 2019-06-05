@@ -2,106 +2,131 @@
 * {
   box-sizing: border-box;
 }
-
-
 header {
-  background-color: #666;
-  padding: 0px;
+  min-height: 130px;
+  background-image: linear-gradient(to right, rgb(53, 5, 95), rgb(148, 141, 155));
+  padding:15px;
+  margin-bottom: 5px;
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   color: white;
+  text-shadow: 2px 2px #580579;
 }
-
-
-
-
-/* Create three equal columns that floats next to each other */
 .column {
   float: left;
   width: 25%;
-  padding: 10px;
-  height: 250px; /* Should be removed. Only for demonstration */
+  padding: 1px;
+  height: 300px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.btn {
+  width: 150px;
+  height: 39px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-/* Clear floats after the columns */
-/* .row:after {
-  content: "";
-  display: table;
-  clear: both;
-} */
-
+.check {
+  width: 5px;
+  height: 25px;
+  }
+p {
+  font-style: italic;
+}
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
 }
-.demo {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-  display: flex;
-  flex-wrap: wrap;
-}
 body {
 /* display: flex; */
 flex-wrap: wrap;
 }
-main {
-display: flex;
-flex-wrap: wrap;
-}
-
-
 .number {
   background-color: rgb(56, 216, 56);
-  width: 35px;
-  height: 35px;
+  border: 2px solid red;
+  border-radius: 10px;
+  width: 55px;
+  height: auto;
   margin: 1px;
   text-align: center;
   font-size: 29px;
+  padding: 5px;
 }
 .fizzBuzz {
   background-color: rgb(129, 112, 224);
+  border: 2px solid red;
+  border-radius: 10px;
   width: auto;
-  height: 35px;
+  height: auto;
   margin: 1px;
   text-align: center;
   font-size: 29px;
   color:whitesmoke;
+  padding: 5px;
 }
 .buzz {
   background-color: rgb(221, 236, 11);
+  border: 2px solid red;
+  border-radius: 10px;
   width: auto;
-  height: 35px;
+  height: auto;
   margin: 1px;
   text-align: center;
   font-size: 29px;
+  color: black;
+  padding: 5px;
 }
 .fizz {
   background-color: rgb(238, 25, 227);
+  border: 2px solid red;
+  border-radius: 10px;
   width: auto;
-  height: 35px;
+  height: auto;
   margin: 1px;
   text-align: center;
   font-size: 29px;
   color:whitesmoke;
+  padding: 5px;
 }
-.button {
-  background-color: rgb(235, 180, 216); /* Green */
-  border: solid salmon;
-  color: white;
-  padding: 15px 32px;
+.buttons {
+background-color: rgb(228, 221, 248);
+border-color: aquamarine;
+color: black;
+font-size: 20px;
+margin: 1px 20px;
+width: 29px;
+cursor: pointer;
+transition-duration: 0.7s;
+border-radius: 34%;
+}
+.button1:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#varValue, #controlValue  {
+font-size: 23px;
+color: black;
+text-shadow: 1px 2px #c40404;
+padding-top: 1px;
+font-weight: bold;
+font-style: inherit;
+}
+.demo {
+  font-size: 63px;
+  background-color: rgb(214, 218, 212);
+  padding: 1px;
+  min-height: 250px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 12px;
+  font-size: 85px;
+  color: rgb(54, 88, 238);
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 10px;
+  background-image: url(/img/results\ area.png);
 }
-.blank_row
-{
-  height: 10px !important;
-  background-color: #FFFFFF;
+footer {
+  background-color: rgb(238, 237, 237) 
 }
