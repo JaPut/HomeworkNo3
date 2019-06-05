@@ -101,14 +101,14 @@ function onlyFizz() {
         alert("it wasn't asked in homework! :)");
       }if (i === String) {
         alert("it wasn't asked in homework! :)");
-      }if (i % 15 == 0) {
+      }if (i % 15 === 0) {
         console.log("BuzzFizz");
         document.getElementById('controlValue').innerHTML = "I'm buzzfizz";
         return (i);
-      } if (i % 5 == 0) {
+      } if (i % 5 === 0) {
         console.log("Buzz");
         document.getElementById('controlValue').innerHTML = "I'm buzz";
-      } if (i % 3 == 0) {
+      } if (i % 3 === 0) {
         console.log("Fizz");
         document.getElementById('controlValue').innerHTML = "I'm fizz";
       } if (i % 15 !== 0 && i % 5 !== 0 && i % 3 !== 0) {
